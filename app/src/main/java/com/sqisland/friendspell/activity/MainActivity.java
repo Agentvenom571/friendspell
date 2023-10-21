@@ -247,13 +247,6 @@ public class MainActivity extends AppCompatActivity implements
     updateMenuItems();
   }
 
-  private void showAutoSignedInUI() {
-    setTitle(R.string.title_word_sets);
-
-    signedOutPane.setVisibility(View.GONE);
-    wordSetsListView.setVisibility(View.VISIBLE);
-    updateMenuItems();
-  }
 
   private void updateMenuItems() {
     if (menu == null) {
